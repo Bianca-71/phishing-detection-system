@@ -1,0 +1,4 @@
+,True Negatives,False Positives,False Negatives,True Positives
+SVM,3450,12,11,4358
+Random Forest,3452,10,16,4353
+XGBoost,3421,41,11,4358

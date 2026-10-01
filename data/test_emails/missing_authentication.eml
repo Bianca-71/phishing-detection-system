@@ -1,0 +1,16 @@
+From: notification@example.com
+To: student@example.com
+Subject: Test notification
+Date: Tue, 29 Sep 2026 12:00:00 +0200
+Message-ID: <test789@example.com>
+
+Hello,
+
+This is another harmless test email.
+
+It intentionally contains no Authentication-Results header so that
+the forensic component can be tested when authentication information
+is unavailable.
+
+Regards,
+Test System

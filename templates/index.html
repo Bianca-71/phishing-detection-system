@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email Detection System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Phishing Email Detection System</h1>
+
+        <p class="subtitle">
+            Machine learning-based phishing detection with digital forensic
+            evidence preservation.
+        </p>
+
+        <div class="upload-card">
+
+            <h2>Analyse an Email</h2>
+
+            <p>Select an <strong>.eml</strong> email file to analyse.</p>
+
+            <input type="file" id="emailFile" accept=".eml">
+
+            <button id="analyzeButton">
+                Analyse Email
+            </button>
+
+            <p id="status"></p>
+
+        </div>
+
+        <div id="results" class="results hidden">
+
+            <h2>Analysis Results</h2>
+
+            <div class="result-box classification-box">
+    <strong>Classification:</strong>
+    <span id="classification"></span>
+</div>
+
+            <div class="result-box">
+                <strong>Evidence File:</strong>
+                <span id="evidenceFile"></span>
+            </div>
+
+            <h3>Forensic Evidence</h3>
+
+            <pre id="evidence"></pre>
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

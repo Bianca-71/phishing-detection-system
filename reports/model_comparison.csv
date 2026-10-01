@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-score
+Support Vector Machine,0.9971,0.9973,0.9975,0.9974
+Random Forest,0.9967,0.9977,0.9963,0.997
+XGBoost,0.9934,0.9907,0.9975,0.9941

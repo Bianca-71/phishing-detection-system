@@ -1,0 +1,22 @@
+{
+    "evidence_id": "95e59393216781f972be86e552f3e63558115ae4036762fb5a929c83bf98bb7b",
+    "preserved_at": "2026-09-30T00:55:53.590105+00:00",
+    "sha256": "95e59393216781f972be86e552f3e63558115ae4036762fb5a929c83bf98bb7b",
+    "headers": {
+        "From": "sender@example.com",
+        "To": "student@example.com",
+        "Subject": "Important account notification",
+        "Date": "Tue, 29 Sep 2026 10:00:00 +0200",
+        "Message-ID": "<test123@example.com>",
+        "Authentication-Results": "spf=pass; dkim=pass; dmarc=pass"
+    },
+    "subject": "Important account notification",
+    "urls": [],
+    "authentication": {
+        "authentication_results": "spf=pass; dkim=pass; dmarc=pass"
+    },
+    "classification": {
+        "prediction": 0,
+        "label": "legitimate"
+    }
+}
